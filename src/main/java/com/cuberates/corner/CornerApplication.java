@@ -9,5 +9,4 @@ public class CornerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CornerApplication.class, args);
 	}
-
 }
