@@ -1,0 +1,64 @@
+/*
+#15173D
+#982598
+#E491C9
+#F1E9E9
+rgb(21, 23, 61)
+rgb(152, 37, 152)
+rgb(228, 145, 201)
+rgb(241, 233, 233)
+*/
+
+.navbar-brand { 
+  color: rgb(255, 77, 255);
+}
+
+.nav-link {
+  color: rgb(241, 233, 233);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(228, 145, 201);
+}
+
+body { 
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: rgb(241, 233, 233);
+  background-color: rgb(35, 35, 35);
+}
+
+.container {
+  text-align: left;
+}
+
+.page-section {
+  margin-top: 2rem;
+}
+
+.section-anchor {
+  scroll-margin-top: 5rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  /* border: 1px solid rgb(152, 37, 152); */
+  /* border-radius: 10px; */
+  padding: 0.5rem;
+  background-color: rgb(79, 79, 83);
+}
+
+.project-card h3 {
+  margin-bottom: 0.25rem;
+}
+
+.project-card p {
+  margin-bottom: 0;
+}
