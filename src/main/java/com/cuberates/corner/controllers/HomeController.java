@@ -5,9 +5,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-  
-  @GetMapping("/")
-  public String getHome() {
-    return "views/home";
+  @GetMapping({"/", "/home", "/index"})
+  public String getHome() { 
+    return "forward:/home.html";
+  }
+  @GetMapping("/blog")
+  public String getBlog() {
+    return "forward:/blog.html";
+  }
+  @GetMapping("/contacts")
+  public String getContact() {
+    return "forward:/contacts.html";
   }
 }
